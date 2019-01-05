@@ -1,0 +1,24 @@
+{
+  "name": "compose.helpers",
+  "version": "1.0.0",
+  "description": "Helper functions for composition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarasowski/compose.helpers.git"
+  },
+  "keywords": [
+    "functional",
+    "programming",
+    "composition"
+  ],
+  "author": "Dimitri Tarasowski <dimitri+npm@tarasowski.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarasowski/compose.helpers/issues"
+  },
+  "homepage": "https://github.com/tarasowski/compose.helpers#readme"
+}
