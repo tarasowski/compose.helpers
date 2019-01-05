@@ -41,7 +41,7 @@ const propEq = curry((key, value, data) => {
         : false
 })
 
-module.export = {
+module.exports = {
     trace,
     curry,
     compose,
