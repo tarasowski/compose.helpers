@@ -41,6 +41,10 @@ const propEq = curry((key, value, data) => {
         : false
 })
 
+const asyncPipe = (...fns) => x => fns.reduce(await (v, f) => f(await v), x)
+
+const composeP = (...fns) => x => fns.reduceRight(await (v, f) => f(await v), x)
+
 module.exports = {
     trace,
     curry,
@@ -53,5 +57,7 @@ module.exports = {
     ap,
     fork,
     prop,
-    propEq
+    propEq,
+    asyncPipe,
+    composeP
 }

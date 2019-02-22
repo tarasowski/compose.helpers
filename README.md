@@ -15,6 +15,8 @@ module.exports = {
     ap,
     fork,
     prop,
-    propEq
+    propEq,
+    asyncPipe,
+    composeP
 }
 ```
