@@ -1,6 +1,6 @@
 {
   "name": "compose.helpers",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Helper functions for composition",
   "main": "index.js",
   "scripts": {
